@@ -107,20 +107,29 @@ main > img {
     width: 100%;
 }
 .div-centralizada{
-    background-color: rgb(141, 255, 247);
+    background-color: rgb(146, 255, 251);
     margin: 0 auto;
     width: 100%;
     padding: 10px;
     text-align: center;
     margin-top: 15px;
 }
+.botones{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+   
+}
 .button {
     border: 2px solid black;
     border-radius: 10px;
-    padding: 20px;
+    padding: 3px;
    
 }
-@media(max-width:650px)
+.metade p {
+    margin-bottom: 5px;
+    padding: 2px;
+}
 
 .metade {
     width: 50%;
@@ -137,8 +146,7 @@ main > img {
 }
 .card{
     display: flex;
-    background-color: rgb(141, 255, 247);
-    margin: 0 auto;);
+    background-color: rgb(146, 255, 251);
     margin-top: 15px;
     align-items: 5xp;
 }
@@ -170,7 +178,7 @@ footer .infos {
 .sociais{
     display: flex;
     justify-content: center;
-    padding: 100px;
+    padding: 10px;
    margin: 10px;
 }
 .sociais img {
@@ -178,6 +186,16 @@ footer .infos {
 }
 .finaldorodape{
 display: flex;
-
-
+}
+.saiba{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3px;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+}
+.linha2{
+    width: 950px;
 }
